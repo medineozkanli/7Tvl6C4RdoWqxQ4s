@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="container">
+        <p id="hour-label" class="label">Hours</p><p id="min-label" class="label">Minutes</p><p id="sec-label" class="label">Seconds</p>
+        <input id="hour" type="number" max="10" min="0" value="0" class="time"><p id="p1" class="semicolon">:</p><input id="minute" type="number" max="60" min="0" value="0" class="time"><p id="p2" class="semicolon">:</p><input id="sec" type="number" max="60" min="0" value="0" class="time">
+    </div>
+
+    <div class="grid-container">
+        <div>
+            USD
+            <div class="grid-item" id="box">
+            </div>
+        </div>
+
+        <div>
+            GBP
+            <div class="grid-item" id="box2">
+            </div>
+        </div>
+
+        <div>
+            EUR
+            <div class="grid-item" id="box3">
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="main.js">
+
+
+    </script>
+</body>
+</html>
